@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Reports_window</class>
+ <widget class="QWidget" name="Reports_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Reports</string>
+  </property>
+  <widget class="QPushButton" name="first_button">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>441</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 201, 255);</string>
+   </property>
+   <property name="text">
+    <string>Коэффициент бесполезного пробега(по каждому грузовику)
++ средний по всем грузовикам за год</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="second_button">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>441</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 201, 255);</string>
+   </property>
+   <property name="text">
+    <string>Коэффициент простоя по каждому грузовику
++ общий коэффициент простоя</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="third_button">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>441</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 201, 255);</string>
+   </property>
+   <property name="text">
+    <string>Активность городов</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fourth_button">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>441</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 201, 255);</string>
+   </property>
+   <property name="text">
+    <string>Популярные грузы</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fifth_button">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>441</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 201, 255);</string>
+   </property>
+   <property name="text">
+    <string>Финансовый отчет компании</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>0</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выберите отчет:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
