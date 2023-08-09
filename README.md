@@ -68,7 +68,7 @@ https://github.com/tak172/Logistics_database_project/assets/120005445/37071aa0-8
 ## Developers
 
 - [Kromachev Timofey](https://github.com/tak172)
-- [Kromachev Maxim]()
+- [Kromachev Maxim](https://github.com/kromachmax)
 
 ## License
 Project Crossword_Generator_bot is distributed under the **GNU General Public License**.
